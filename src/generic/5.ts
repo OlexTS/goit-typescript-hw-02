@@ -3,9 +3,19 @@
   Використовуйте generics, щоб цей інтерфейс міг працювати з будь-якими типами ключів та значень.
 */
 
-interface KeyValuePair {
-  key;
-  value;
+interface KeyValuePair<T, U> {
+  key: T;
+  value: U;
 }
+
+const keyValuePair1: KeyValuePair<number, boolean> = {
+  key: 1,
+  value: true
+};
+const keyValuePair2: KeyValuePair<string, null> = {
+  key: '1',
+  value: null
+};
+
 
 export {};

@@ -3,7 +3,7 @@
   щоб гарантувати, що перший елемент завжди буде рядком, а другий числом?
 */
 
-let person: [string, number]
-person = ['Max', 21];
+let person: [string, number];
+person = ["Max", 21];
 
-export {person};
+export { person };

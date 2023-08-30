@@ -30,4 +30,4 @@ const page2 = {
   status: "close",
 };
 
-export {page1, page2};
+export { page1, page2 };
