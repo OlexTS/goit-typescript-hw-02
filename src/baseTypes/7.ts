@@ -14,8 +14,5 @@ enum WeekDay {
 }
 
 const isWeekend = (day: WeekDay): boolean => {
-  if (day === "SATURDAY" || day === "SUNDAY") {
-    return true;
-  }
-  return false;
+  return day === "SATURDAY" || day === "SUNDAY";
 };
